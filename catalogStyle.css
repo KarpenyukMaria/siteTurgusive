@@ -1,0 +1,80 @@
+.navbar-custom{
+    background-color: #216A48;
+    color:whitesmoke;
+    border-radius: 0;
+    height: 80px;
+    font-family: "MYRIADPRO-BOLD", serif ;
+}
+.navbar-brand span{
+    font-size: 30px;
+    color: whitesmoke;
+    height: 100%;
+    margin-top:10px;
+    padding-left: 20px;
+
+}
+.number{
+    width: 150px;
+    margin-left: 0;
+
+}
+.mar20 {
+    margin-top: 20px;
+}
+.col-md-6{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.homeIcon{
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+.homeIcon a{
+    color:whitesmoke;
+    position: absolute;
+    right: 70px;
+}
+.homeIcon a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.col-md-10 i{
+    font-size: 30px;
+}
+.row .col-md-2{
+    height: 100%;
+    width: 100%;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item p{
+    background-color: #216A48;
+    color: whitesmoke;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    font-family: MYRIADPRO-BOLD, serif;
+    font-size: 18px;
+    padding-top: 7px;
+}
+img{
+    transition:  0.5s all ease-in-out; /* Animation */
+}
+img:hover{
+    transform: scale(1.1);
+}
+.selectLang{
+    color: whitesmoke;
+    background-color: #216A48;
+    border-radius: 10%;
+    height: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: 9999;
+}

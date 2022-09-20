@@ -1,0 +1,89 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    .col-md-6.col-sm-6 {
+        display: none;
+    }
+    .number {
+        position: absolute;
+        left: 100px;
+        top: 3px;
+    }
+    .homeIcon{
+        position: absolute;
+        right: 1px;
+        top:1px;
+        z-index: 99999999999;
+
+    }
+    .homeIcon a{
+        position: absolute;
+        right: 45px;
+    }
+
+
+
+}
+/*extra small devices*/
+@media only screen and (max-width : 480px){
+
+    .col-md-6.col-sm-6 {
+        display: none;
+    }
+
+    .number {
+        position: absolute;
+        left: 100px;
+        top: 3px;
+    }
+    .homeIcon{
+        position: absolute;
+        right: 1px;
+        top:1px;
+        z-index: 99999999999;
+
+    }
+    .homeIcon a{
+        position: absolute;
+        right: 40px;
+    }
+
+
+
+}
+/*iphone*/
+@media only screen and (max-width : 420px){
+
+    .col-md-6.col-sm-6 {
+        display: none;
+    }
+    .number {
+        position: absolute;
+        left: 100px;
+        top: 3px;
+    }
+    .item p{
+        width: 100px;
+    }
+    .homeIcon{
+        position: absolute;
+        right: 1px;
+        top:1px;
+        z-index: 99999999999;
+
+    }
+    .homeIcon a{
+        position: absolute;
+        right: 40px;
+    }
+}

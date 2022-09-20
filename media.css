@@ -1,0 +1,278 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+    .mobileMoreInformation {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+    .imgMobGirl{
+        display: none;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .mainBlock {
+        height: 100vh;
+        width: 100vh;
+    }
+    .imgMobGirl{
+        display: none;
+    }
+
+    .navbar-custom {
+        height: 100px;
+        width: 100vh;
+    }
+    .number{
+        color: whitesmoke;
+    }
+    .textBlock1{
+        width: 280px;
+        line-height: 38px;
+        position:absolute;
+        left: 420px;
+        top:60px;
+    }
+    .mobileMoreInformation{
+        display: none;
+    }
+    .col-md-3.mar20{
+        visibility: hidden;
+    }
+
+    footer {
+        display: none;
+    }
+    footer {
+        display: block;
+    }
+    .footInfo{
+        font-size: 25px;
+    }
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .mainBlock{
+        background-image: url("img/foni.jpg");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        overflow:hidden;
+
+        font-family: MYRIADPRO-SEMIBOLD,serif;
+        font-size: 24px;
+    }
+
+    .textBlock2{
+        visibility: hidden;
+    }
+    .textBlock1{
+        display: none;
+    }
+    .fSizeTextBlock1{
+         display: none;
+    }
+    .navbar-custom{
+        height: 100px;
+        width: 100vh;
+    }
+    .col-md-3.mar20{
+        visibility: hidden;
+        display:none;
+    }
+    .col-md-4.mar20.m30{
+        display: none;
+    }
+    .number{
+    width: 150px;
+    margin-left: 0;
+}
+    .number {
+        color: whitesmoke;
+        position: absolute;
+        width: 150px;
+        left: 70px;
+        top: 0;
+        bottom: 20px;
+        font-size: 14px;
+    }
+    .navbar-brand span{
+        font-size: 24px;
+        color: whitesmoke;
+        height: 100%;
+        margin-top:15px;
+        padding-left: 5px;
+
+    }
+    .mobileMoreInformation{
+        display: block;
+        position: absolute;
+        right: 330px;
+        top: 30px;
+
+    }
+    .mobileMoreInformation a{
+        color:whitesmoke;
+        font-family: MYRIADPRO-BOLD, serif;
+        font-size: 18px;
+    }
+    footer {
+        display: block;
+    }
+
+
+
+}
+/*extra small devices*/
+@media only screen and (max-width : 480px) {
+    .mainBlock{
+        background-image: url("img/foni.jpg");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        overflow:hidden;
+        font-family: MYRIADPRO-SEMIBOLD,serif;
+        font-size: 24px;
+    }
+
+    .textBlock2{
+        visibility: hidden;
+    }
+    .textBlock1{
+        display: none;
+    }
+
+    .fSizeTextBlock1{
+        display:none;
+    }
+    .navbar-custom{
+        height: 100px;
+        width: 100vh;
+    }
+    .col-md-3.mar20{
+        visibility: hidden;
+        display: none;
+    }
+    .col-md-4.mar20.m30{
+        display: none;
+    }
+    .number{
+    width: 150px;
+    margin-left: 0;
+}
+    .number {
+        color: whitesmoke;
+        position: absolute;
+        width: 150px;
+        left: 70px;
+        top: 0;
+        bottom: 20px;
+        font-size: 14px;
+    }
+    .navbar-brand span{
+        font-size: 24px;
+        color: whitesmoke;
+        height: 100%;
+        margin-top:15px;
+        padding-left: 5px;
+
+    }
+
+    .mobileMoreInformation{
+        display: block;
+        position: absolute;
+        right: 380px;
+        top: 30px;
+
+    }
+    .mobileMoreInformation a{
+        color:whitesmoke;
+        font-family: MYRIADPRO-BOLD, serif;
+        font-size: 18px;
+    }
+    footer {
+        display: block;
+    }
+
+}
+
+
+
+
+/*iphone*/
+@media only screen and (max-width : 320px) {
+
+    .mainBlock{
+        background-image: url("img/foni.jpg");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        overflow:hidden;
+
+        font-family: MYRIADPRO-SEMIBOLD,serif;
+        font-size: 24px;
+    }
+
+    .textBlock2{
+        visibility: hidden;
+    }
+    .textBlock1{
+        display: none;
+    }
+    .fSizeTextBlock1{
+        display:none;
+    }
+    .navbar-custom{
+        height: 100px;
+        width: 100vh;
+    }
+    .col-md-3.mar20{
+        visibility: hidden;
+        display: none;
+    }
+    .col-md-4.mar20.m30{
+        display: none;
+    }
+
+    .number {
+        color: whitesmoke;
+        position: absolute;
+        width: 150px;
+        left: 70px;
+        top: 0;
+        bottom: 20px;
+        font-size: 14px;
+
+}
+    .navbar-brand span{
+        font-size: 24px;
+        color: whitesmoke;
+        height: 100%;
+        margin-top:15px;
+        padding-left: 5px;
+
+    }
+    .mobileMoreInformation{
+        display: block;
+        position: absolute;
+        right: 280px;
+        top: 30px;
+
+    }
+    .mobileMoreInformation a{
+        color:whitesmoke;
+        font-family: MYRIADPRO-BOLD, serif;
+        font-size: 18px;
+    }
+    footer {
+        display: block;
+    }
+
+
+}
